@@ -3,7 +3,7 @@ FROM centos:7
 LABEL maintainer="Fabien Crespel <fabien@crespel.net>"
 
 # Arguments
-ARG ACTIVEMQ_VERSION=5.15.6
+ARG ACTIVEMQ_VERSION=5.15.8
 ARG ACTIVEMQ_URL=http://archive.apache.org/dist/activemq/${ACTIVEMQ_VERSION}/apache-activemq-${ACTIVEMQ_VERSION}-bin.tar.gz
 
 # Environment
